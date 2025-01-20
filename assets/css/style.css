@@ -199,14 +199,15 @@ nav {
 
     margin: 50px;
 
-    a {
-        padding: 15px;
-        background-color: var(--dis-primary-ligth);
-        border-radius: 20px;
-        color: white;
-        text-decoration: none;
+}
 
-    }
+.bt-style {
+    padding: 15px;
+    background-color: var(--dis-primary-ligth);
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+
 }
 
 .collection-items {
@@ -235,6 +236,11 @@ nav {
 footer {
     background-color: var(--dis-bg-footer);
     color: white;
+
+    hr {
+        border: 1px solid var(--dis-primary-ligth);
+        margin: 20px;
+    }
 }
 
 .flag {
@@ -259,5 +265,11 @@ footer {
             padding: 10px
         }
     }
+
+}
+
+.footer-down {
+    margin: auto;
+    justify-content: space-between;
 
 }
