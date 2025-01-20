@@ -41,6 +41,14 @@ ul {
     width: 70%;
 }
 
+.max-w-50 {
+    width: 50%;
+}
+
+.max-w-30 {
+    width: 30%;
+}
+
 /* START HEADER */
 header {
     background-color: var(--dis-primary-dark);
@@ -132,6 +140,30 @@ nav {
         color: black
     }
 }
+
+.card-container {
+    max-width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+
+
+
+    .card {
+        max-width: 33.3%;
+        padding: 10px;
+
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .card:nth-child(1),
+    .card:nth-child(2) {
+        max-width: 50%;
+    }
+}
+
 
 
 /* START FOOTER */
