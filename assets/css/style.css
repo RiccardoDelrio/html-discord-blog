@@ -99,6 +99,7 @@ nav {
 .jumbotron {
     width: 100%;
 
+
     .j-container {
         margin: auto;
         background-color: var(--dis-primary-dark);
@@ -113,6 +114,7 @@ nav {
 
     .jumbo-down {
         flex-direction: column;
+
 
         margin: auto;
 
@@ -133,6 +135,10 @@ nav {
     }
 }
 
+.title-container {
+    margin: 40px 0 80px;
+}
+
 .j-title {
     font-size: 1.3rem;
 
@@ -151,16 +157,26 @@ nav {
     .card {
         max-width: 33.3%;
         padding: 10px;
+        font-weight: bold;
+
 
 
         img {
             width: 100%;
+            border-radius: 10px;
         }
     }
 
     .card:nth-child(1),
     .card:nth-child(2) {
         max-width: 50%;
+    }
+}
+
+.card-title {
+    a {
+
+        color: black;
     }
 }
 
