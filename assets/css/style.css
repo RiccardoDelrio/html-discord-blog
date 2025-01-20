@@ -19,6 +19,10 @@
     align-items: center;
 }
 
+.justify-c {
+    justify-content: center;
+}
+
 ul {
     list-style: none;
 }
@@ -29,6 +33,9 @@ ul {
 
 }
 
+.w-60 {
+    width: 60%;
+}
 
 /* START HEADER */
 header {
@@ -77,6 +84,25 @@ nav {
 
 
 /* START MAIN */
+.jumbotron {
+    width: 100%;
 
+    .j-container {
+        margin: auto;
+        background-color: var(--dis-primary-dark);
+    }
+
+    .jumbo-up {
+        position: relative;
+        height: 250px;
+
+        img {
+            width: 100%;
+            position: absolute;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+    }
+}
 
 /* START FOOTER */
