@@ -10,6 +10,7 @@
     --dis-primary-dark: #4e47e9;
     --dis-primary-ligth: #6260ee;
     --dis-bg-grey: #f6f6f6;
+    --dis-bg-footer: #24272a;
 }
 
 .d-flex {
@@ -231,3 +232,32 @@ nav {
 
 
 /* START FOOTER */
+footer {
+    background-color: var(--dis-bg-footer);
+    color: white;
+}
+
+.flag {
+    width: 20px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.footer-up {
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+
+    ul {
+        li:first-child {
+            color: var(--dis-primary-ligth)
+        }
+
+        li {
+            padding: 10px
+        }
+    }
+
+}
