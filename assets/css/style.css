@@ -1,5 +1,82 @@
+/* UTILITY CLASS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
 }
+
+:root {
+    --dis-primary-dark: #4e47e9;
+    --dis-primary-ligth: #6260ee;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.link-style {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* START HEADER */
+header {
+    background-color: var(--dis-primary-dark);
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav {
+    ul {
+        li {
+            padding: 0 25px;
+        }
+    }
+
+    .search {
+        border-radius: 20px;
+        background-color: var(--dis-primary-dark);
+        color: white;
+        border: 1px solid white;
+        padding: 10px;
+        display: flex;
+
+
+
+
+        input {
+            height: 20px;
+            border: 0;
+            background-color: var(--dis-primary-dark);
+
+        }
+
+        input[type=submit] {
+            width: 20px;
+            background-image: url(../img/icon/search.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+
+        }
+
+    }
+}
+
+
+
+/* START MAIN */
+
+
+/* START FOOTER */
