@@ -9,7 +9,6 @@
 :root {
     --dis-primary-dark: #4e47e9;
     --dis-primary-ligth: #6260ee;
-    --dis-bg-grey: #f6f6f6;
 }
 
 .d-flex {
@@ -187,8 +186,7 @@ nav {
 
 .collection-container {
     margin: auto;
-    background-color: var(--dis-bg-grey);
-    margin-bottom: 80px;
+
 }
 
 .type-collection {
@@ -196,9 +194,7 @@ nav {
     flex-direction: column;
     gap: 30px;
 
-    margin: 50px;
-
-    a {
+    flex.1 a {
         padding: 15px;
         background-color: var(--dis-primary-ligth);
         border-radius: 20px;
@@ -216,15 +212,10 @@ nav {
 
     .card:nth-child(1) {
         max-width: 100%;
+
     }
 
-    .card {
-        h3 {
-
-            font-weight: 500;
-
-        }
-    }
+    .card
 }
 
 
